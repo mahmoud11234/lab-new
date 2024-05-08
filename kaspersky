@@ -1,0 +1,47 @@
+Objective:
+•	Familiarize yourself with the Kaspersky Security Center console dashboard and its key features.
+Prerequisites:
+•	Kaspersky Security Center is installed and properly configured on a local machine.
+•	Administrative access to the Kaspersky Security Center console.
+Steps:
+1.	Launch Kaspersky Security Center:
+a. Open the Start menu and search for "Kaspersky Security Center."
+b. Click on "Kaspersky Security Center" to launch the management console.
+
+2.	Explore the Dashboard:
+a. Once logged in, you will be directed to the main dashboard of Kaspersky Security Center.
+b. The dashboard provides an overview of the security status, critical issues, and important statistics.
+
+3.	Sections on the Dashboard:
+a. The dashboard is divided into several sections that display different information and metrics.
+b. Some common sections include:
+o	Protection status: Shows the overall protection status of the managed devices.
+o	Most infected computers: Displays the computers with the highest number of detected threats.
+o	License information: Indicates the status and expiration date of your Kaspersky licenses.
+o	Database versions: Shows the version and update status of the antivirus databases.
+
+4.	Navigating the Dashboard:
+a. Use the scrollbar on the right side of the dashboard to scroll up and down and view all the sections.
+b. Some sections may have additional pages or tabs. Click on the arrows or tab names to navigate through them.
+
+5.	Accessing Other Sections:
+a. The left-side panel in Kaspersky Security Center allows you to access different sections and features.
+b. Some key sections include:
+o	Managed devices: Displays the list of devices managed by Kaspersky Security Center.
+o	Policies: Allows you to create, edit, and assign security policies to managed devices.
+o	Tasks: Enables you to create and manage various tasks, such as scans and updates.
+o	Reports: Provides various reports on the security status, events, and performance of managed devices.
+
+6.	Viewing Detailed Information:
+a. To view more detailed information about a specific item on the dashboard, double-click on it.
+b. For example, double-clicking on a managed device in the "Most infected computers" section will open the device's details window.
+
+7.	Responding to Alerts and Issues:
+a. If there are any critical alerts or issues, they will be prominently displayed on the dashboard.
+b. Double-click on an alert or issue to view more details and take appropriate actions, such as running a scan or updating the antivirus databases.
+
+8.	Refreshing the Dashboard:
+a. To refresh the data on the dashboard, click on the "Refresh" button in the top-right corner of the console.
+b. This will update the information and statistics displayed on the dashboard.
+
+That's it! You have now explored the basic features and functionality of the Kaspersky Security Center offline console dashboard. Remember to regularly monitor the dashboard for any security alerts, keep the antivirus databases up to date, and manage the security policies for your managed devices.
