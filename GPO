@@ -1,0 +1,55 @@
+Objective:
+•	Configure the minimum password length policy for Active Directory users using Group Policy.
+
+Prerequisites:
+•	Active Directory Domain Services (AD DS) installed and configured.
+•	Administrative access to the domain controller.
+
+Steps:
+1.	Open the Group Policy Management Console (GPMC):
+a. Press the Windows key + R to open the Run dialog box.
+b. Type "gpmc.msc" and press Enter.
+
+2.	Create a new Group Policy Object (GPO) or edit an existing one:
+a. Right-click on the domain or organizational unit (OU) where you want to apply the password policy.
+b. Select "Create a GPO in this domain, and Link it here" to create a new GPO.
+c. Provide a descriptive name for the GPO, such as "Password Policy," and click OK.
+
+3.	Edit the GPO:
+a. Right-click on the newly created GPO and select "Edit" to open the Group Policy Management Editor.
+
+4.	Navigate to the Password Policy settings:
+a. In the Group Policy Management Editor, expand the following folders:
+o	Computer Configuration
+o	Policies
+o	Windows Settings
+o	Security Settings
+o	Account Policies
+b. Click on "Password Policy."
+
+5.	Configure the minimum password length:
+a. In the right pane, double-click on "Minimum password length."
+b. In the "Minimum password length" dialog box, select the "Define this policy setting" checkbox.
+c. Enter the desired minimum password length in the "Password must be at least" field. For example, enter "12" to set a minimum password length of 12 characters.
+d. Click Apply and then OK to save the changes.
+
+6.	Close the Group Policy Management Editor.
+
+7.	Link the GPO to the desired organizational unit (OU) or domain:
+a. In the Group Policy Management Console, right-click on the OU or domain where you want to apply the password policy.
+b. Select "Link an Existing GPO."
+c. Choose the GPO you just created (e.g., "Password Policy") and click OK.
+
+8.	Force Group Policy update (optional):
+a. If you want to immediately apply the changes to the users, you can force a Group Policy update on the client computers.
+b. Open the Command Prompt or PowerShell as an administrator on the client computer.
+c. Run the command: gpupdate /force
+
+9.	Verify the password policy:
+a. Log in to a client computer with a user account affected by the GPO.
+b. Press Ctrl + Alt + Delete and select "Change a password."
+c. Attempt to set a password that is shorter than the minimum length specified in the GPO.
+d. Verify that the system enforces the minimum password length and displays an error message if the password is too short.
+
+That's it! You have successfully configured the minimum password length policy using Group Policy in Active Directory. Users will now be required to set passwords that meet the specified minimum length requirement.
+ 
